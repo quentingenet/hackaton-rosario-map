@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bc99d81c026aaf4e662ffffde457d04",
+    "content-hash": "8ba58e0ab0f73d0f03f4801f9764b7b4",
     "packages": [
         {
             "name": "composer/semver",
@@ -6843,6 +6843,153 @@
             "time": "2024-09-19T21:48:23+00:00"
         },
         {
+            "name": "symfony/ux-leaflet-map",
+            "version": "v2.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/ux-leaflet-map.git",
+                "reference": "437779e3aebd07cc84911ab1c28ab484ab53bd4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/ux-leaflet-map/zipball/437779e3aebd07cc84911ab1c28ab484ab53bd4c",
+                "reference": "437779e3aebd07cc84911ab1c28ab484ab53bd4c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "symfony/ux-map": "^2.19"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^6.4|^7.0"
+            },
+            "type": "symfony-ux-map-bridge",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\UX\\Map\\Bridge\\Leaflet\\": "src/"
+                },
+                "exclude-from-classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hugo Alliaume",
+                    "email": "hugo@alliau.me"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony UX Map Leaflet Bridge",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "leaflet",
+                "map",
+                "symfony-ux"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/ux-leaflet-map/tree/v2.20.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-24T06:08:11+00:00"
+        },
+        {
+            "name": "symfony/ux-map",
+            "version": "v2.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/ux-map.git",
+                "reference": "db1fc9c98a21a5701f9d4b9426d2ce4d64b3b275"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/ux-map/zipball/db1fc9c98a21a5701f9d4b9426d2ce4d64b3b275",
+                "reference": "db1fc9c98a21a5701f9d4b9426d2ce4d64b3b275",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "symfony/stimulus-bundle": "^2.18.1"
+            },
+            "require-dev": {
+                "symfony/asset-mapper": "^6.4|^7.0",
+                "symfony/framework-bundle": "^6.4|^7.0",
+                "symfony/phpunit-bridge": "^6.4|^7.0",
+                "symfony/twig-bundle": "^6.4|^7.0",
+                "symfony/ux-twig-component": "^2.18"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "thanks": {
+                    "name": "symfony/ux",
+                    "url": "https://github.com/symfony/ux"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\UX\\Map\\": "src/"
+                },
+                "exclude-from-classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hugo Alliaume",
+                    "email": "hugo@alliau.me"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Easily embed interactive maps in your Symfony application",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "map",
+                "maps",
+                "markers",
+                "symfony-ux"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/ux-map/tree/v2.20.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-24T06:08:11+00:00"
+        },
+        {
             "name": "symfony/ux-turbo",
             "version": "v2.20.0",
             "source": {
@@ -9832,7 +9979,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
@@ -9840,6 +9987,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
